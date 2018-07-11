@@ -5,11 +5,7 @@ const fieldType = (props) => {
 
 	const style = {
 		backgroundImage: "url(" + props.background +")",
-<<<<<<< HEAD
 		backgroundSize: "cover",
-=======
-		backgroundSize: "contain",
->>>>>>> f8055c1fcbbd5e3af08ba1a8615c789f9a5d73b0
 		backgroundRepeat: "no-repeat",
 		width: "675px",
 		height: "634px",
