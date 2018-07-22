@@ -32,10 +32,16 @@ const display = (props) => {
 				name = {props.displayed.name} 
 				count = {props.displayed.count} 
 				id = {props.displayed.id} 
-				sprite = {props.displayed.sprite}/> : null}
+				captured = {props.displayed.captured}
+				shinyCaptured = {props.displayed.shinyCaptured}
+				sprite = {props.displayed.sprite}
+				shinySprite = {props.displayed.shinySprite}/> : null}
 			{props.showPage.description ? <Description 
 				name = {props.displayed.name} 
-				description = {props.displayed.description} 
+				description = {props.displayed.description}
+				species = {props.displayed.species}
+				type1 = {props.displayed.type1}
+				type2 = {props.displayed.type2}
 				id = {props.displayed.id} 
 				sprite = {props.displayed.sprite}/> : null}
 			{button}

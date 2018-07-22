@@ -87,13 +87,12 @@ class Pokedex extends Component {
 const mapStateToProps = state => {
 	return {
 		pokedex: state.pokedex.pokedex,
-		displayed: state.pokedex.displayed
+		displayed: state.pokedex.displayed,
 	};
 };
 
 const mapDispatchToProps = dispatch => {
 	return {
-		onRecordCapture: (entryNumber) => dispatch(actions.recordCapture(entryNumber)),
 		onChangeDisplay: (pokemonData) => dispatch(actions.changeDisplay(pokemonData))
 	}
 }

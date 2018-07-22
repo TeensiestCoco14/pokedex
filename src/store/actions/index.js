@@ -1,3 +1,14 @@
-export {capturePokemon, checkSpawnPokemon, confirmCapture} from "./catching";
+export {
+	capturePokemon, 
+	checkSpawnPokemon, 
+	confirmCapture,
+	changeToGrassyField,
+	changeToCave,
+	changeToOcean,
+	clearField
+} from "./catching";
 
-export {recordCapture, changeDisplay} from "./pokedex";
+export {
+	recordCapture, 
+	changeDisplay
+} from "./pokedex";

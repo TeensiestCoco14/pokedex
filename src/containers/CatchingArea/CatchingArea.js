@@ -8,25 +8,29 @@ import * as actions from "../../store/actions/index";
 import grassyField from "../../assets/images/backgrounds/Grassy_Field.jpg";
 import ocean from "../../assets/images/backgrounds/Ocean.png";
 import cave from "../../assets/images/backgrounds/Cave.png";
+import city from "../../assets/images/backgrounds/city.png";
+import desert from "../../assets/images/backgrounds/desert.jpg";
+import forest from "../../assets/images/backgrounds/forest.png";
+import mountain from "../../assets/images/backgrounds/mountain.png";
+import river from "../../assets/images/backgrounds/river.png";
+import snow from "../../assets/images/backgrounds/snow.png";
 
 
 class CatchingArea extends Component {
 
-	state = {
-		fieldType: null
-	};
-
 	componentDidMount() {
-		this.props.onSpawn(this.props.spawned, this.props.captured);
+		this.props.onSpawn(this.props.spawned, this.props.captured, this.props.fieldType);
 	}
 
 	componentDidUpdate() {
-		this.props.onSpawn(this.props.spawned, this.props.captured);
+		if (this.props.fieldType) {
+			this.props.onSpawn(this.props.spawned, this.props.captured, this.props.fieldType);
+		}
 	}
 
 	onClickHandler = () => {
 		this.props.onCapture();
-		this.props.onRecordCapture(this.props.id)//this.props.pokedex[this.props.id].id);
+		this.props.onRecordCapture(this.props.id, this.props.shiny)//this.props.pokedex[this.props.id].id);
 	}
 
 	onConfirmHandler = () => {
@@ -34,58 +38,74 @@ class CatchingArea extends Component {
 	}
 
 	onGrassyHandler = () => {
-		this.setState({fieldType: "grassy"});
+		this.props.onChangeToGrassyField();
 	}
 
 	onOceanHandler = () => {
-		this.setState({fieldType: "ocean"});
+		this.props.onChangeToOcean();
 	}
 
 	onCaveHandler = () => {
-		this.setState({fieldType: "cave"});
+		this.props.onChangeToCave();
 	}
 
 				
 	render() {
-		return(
-			<div>
-				{this.state.fieldType === null ?
-					<div>
-						<FieldSelector field = "Grassy Field" description = "..." clicked = {this.onGrassyHandler}/>
-						<FieldSelector field = "Ocean" description = "..." clicked = {this.onOceanHandler}/>
-						<FieldSelector field = "Cave" description = "..." clicked = {this.onCaveHandler}/>
-					</div> : null}
+		let field = null;
 
-				{this.state.fieldType === "grassy" ? <FieldType 
+		if (!this.props.fieldType) {
+			field = (
+				<div>
+					<FieldSelector field = "Grassy Field" description = "..." clicked = {this.onGrassyHandler}/>
+					<FieldSelector field = "Ocean" description = "..." clicked = {this.onOceanHandler}/>
+					<FieldSelector field = "Cave" description = "..." clicked = {this.onCaveHandler}/>
+				</div>
+			);
+		} else if (this.props.fieldType === "grassy") {
+			field = (
+				<FieldType 
 					clicked = {this.onClickHandler} 
 					background = {grassyField} 
 					captured = {this.props.captured} 
 					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
 					confirm = {this.onConfirmHandler}
 					pokemon = {this.props.pokedex[this.props.id].name}
-					sprite = {this.props.pokedex[this.props.id].sprite}/> : null}
-
-				{this.state.fieldType === "ocean" ? <FieldType 
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
+		} else if (this.props.fieldType === "ocean") {
+			field = (
+				<FieldType 
 					clicked = {this.onClickHandler} 
 					background = {ocean} 
 					captured = {this.props.captured} 
 					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
 					confirm = {this.onConfirmHandler}
 					pokemon = {this.props.pokedex[this.props.id].name}
-					sprite = {this.props.pokedex[this.props.id].sprite}/> : null}
-
-				{this.state.fieldType === "cave" ? <FieldType 
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
+		} else if (this.props.fieldType === "cave") {
+			field = (
+				<FieldType 
 					clicked = {this.onClickHandler} 
 					background = {cave} 
 					captured = {this.props.captured} 
 					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
 					confirm = {this.onConfirmHandler}
 					pokemon = {this.props.pokedex[this.props.id].name}
-					sprite = {this.props.pokedex[this.props.id].sprite}/> : null}
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
+		}
 
-
-				{this.state.fieldType ? <button onClick = {() => {this.setState({fieldType: null})}}>Back to Selection</button> : null }
-					
+		return(
+			<div>
+				{field}
+				{this.props.fieldType ? <button onClick = {() => this.props.onClearField()}>Back to Selection</button> : null }	
 			</div>
 		);
 	}
@@ -95,17 +115,23 @@ const mapStateToProps = state => {
 	return {
 		captured: state.catching.captured,
 		spawned: state.catching.spawned,
+		shiny: state.catching.shiny,
 		id: state.catching.id,
-		pokedex: state.pokedex.pokedex
+		pokedex: state.pokedex.pokedex,
+		fieldType: state.catching.fieldType
 	};
 }
 
 const mapDispatchToProps = dispatch => {
 	return {
 		onCapture: () => dispatch(actions.capturePokemon()),
-		onSpawn: (spawned, captured) => dispatch(actions.checkSpawnPokemon(spawned, captured)),
+		onSpawn: (spawned, captured, fieldType) => dispatch(actions.checkSpawnPokemon(spawned, captured, fieldType)),
 		onConfirm: () => dispatch(actions.confirmCapture()),
-		onRecordCapture: (id) => dispatch(actions.recordCapture(id))
+		onRecordCapture: (id, shiny) => dispatch(actions.recordCapture(id, shiny)),
+		onChangeToGrassyField: () => dispatch(actions.changeToGrassyField()),
+		onChangeToCave: () => dispatch(actions.changeToCave()),
+		onChangeToOcean: () => dispatch(actions.changeToOcean()),
+		onClearField: () => dispatch(actions.clearField())
 	};
 }
 

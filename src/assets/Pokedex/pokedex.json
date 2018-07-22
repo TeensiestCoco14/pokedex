@@ -1,0 +1,2421 @@
+[
+	{
+		"id": "001",
+		"name": "Bulbasaur",
+		"species": "Seed Pokemon",
+		"description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bulbasaur.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/bulbasaur.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "002",
+		"name": "Ivysaur",
+		"species": "Seed Pokemon",
+		"description": "There is a bud on this Pokemon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ivysaur.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/ivysaur.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "003",
+		"name": "Venusaur",
+		"species": "Seed Pokemon",
+		"description": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/venusaur.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/venusaur.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "004",
+		"name": "Charmander",
+		"species": "Lizard Pokemon",
+		"description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokemon becomes enraged, the flame burns fiercely.",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charmander.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/charmander.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},	
+	{
+		"id": "005",
+		"name": "Charmeleon",
+		"species": "Flame Pokemon",
+		"description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charmeleon.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/charmeleon.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "006",
+		"name": "Charizard",
+		"species": "Flame Pokemon",
+		"description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+		"type1": "Fire",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charizard.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/charizard.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "007",
+		"name": "Squirtle",
+		"species": "Tiny Turtle Pokemon",
+		"description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokemon to swim at high speeds.",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/squirtle.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/squirtle.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "008",
+		"name": "Wartortle",
+		"species": "Turtle Pokemon",
+		"description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokemon's toughness as a battler.",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/wartortle.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/wartortle.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},	
+	{
+		"id": "009",
+		"name": "Blastoise",
+		"species": "Shellfish Pokemon",
+		"description": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/blastoise.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/blastoise.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "010",
+		"name": "Caterpie",
+		"species": "Worm Pokemon",
+		"description": "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokemon releases a terrifically strong odor.",
+		"type1": "Bug",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/caterpie.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/caterpie.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},	
+	{
+		"id": "011",
+		"name": "Metapod",
+		"species": "Cocoon Pokemon",
+		"description": "The shell covering this Pokemon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+		"type1": "Bug",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/metapod.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/metapod.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "012",
+		"name": "Butterfree",
+		"species": "Butterfly Pokemon",
+		"description": "Its wings are covered in toxic scales. If it finds bird Pokemon going after Caterpie, Butterfree sprinkles its scales on them to drive them off.",
+		"type1": "Bug",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/butterfree.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/butterfree.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "013",
+		"name": "Weedle",
+		"species": "Hairy Bug Pokemon",
+		"description": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+		"type1": "Bug",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/weedle.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/weedle.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "014",
+		"name": "Kakuna",
+		"species": "Cocoon Pokemon",
+		"description": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+		"type1": "Bug",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kakuna.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/kakuna.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},	
+	{
+		"id": "015",
+		"name": "Beedrill",
+		"species": "Poison Bee Pokemon",
+		"description": "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
+		"type1": "Bug",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/beedrill.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/beedrill.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "016",
+		"name": "Pidgey",
+		"species": "Tiny Bird Pokemon",
+		"description": "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+		"type1": "Normal",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pidgey.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/pidgey.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "017",
+		"name": "Pidgeotto",
+		"species": "Bird Pokemon",
+		"description": "Pidgeotto claims a large area as its own territory. This Pokemon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
+		"type1": "Normal",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pidgeotto.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/pidgeotto.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},	
+	{
+		"id": "018",
+		"name": "Pidgeot",
+		"species": "Bird Pokemon",
+		"description": "This Pokemon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokemon.",
+		"type1": "Normal",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pidgeot.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/pidgeot.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "019",
+		"name": "Rattata",
+		"species": "Mouse Pokemon",
+		"description": "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/rattata.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/rattata.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "020",
+		"name": "Raticate",
+		"species": "Mouse Pokemon",
+		"description": "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/raticate.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/raticate.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "021",
+		"name": "Spearow",
+		"species": "Tiny Bird Pokemon",
+		"description": "Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
+		"type1": "Normal",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/spearow.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/spearow.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "022",
+		"name": "Fearow",
+		"species": "Beak Pokemon",
+		"description": "Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.",
+		"type1": "Normal",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/fearow.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/fearow.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "023",
+		"name": "Ekans",
+		"species": "Snake Pokemon",
+		"description": "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+		"type1": "Poison",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ekans.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/ekans.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "024",
+		"name": "Arbok",
+		"species": "Cobra Pokemon",
+		"description": "This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
+		"type1": "Poison",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/arbok.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/arbok.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "025",
+		"name": "Pikachu",
+		"species": "Mouse Pokemon",
+		"description": "This Pokémon has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while Pikachu sleeps. It occasionally discharges electricity when it is dozy after waking up.",
+		"type1": "Electric",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pikachu.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/pikachu.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "026",
+		"name": "Raichu",
+		"species": "Mouse Pokemon",
+		"description": "If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokemon's nest.",
+		"type1": "Electric",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/raichu.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/raichu.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "027",
+		"name": "Sandshrew",
+		"species": "",
+		"description": "",
+		"type1": "Ground",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sandshrew.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/sandshrew.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "028",
+		"name": "Sandslash",
+		"species": "",
+		"description": "",
+		"type1": "Ground",
+		"type2": null ,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sandshlash.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/sandshlash.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "029",
+		"name": "Nidoran",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": null ,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoran-f.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/nidoran-f.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "030",
+		"name": "Nidorina",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": null ,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidorina.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/nidorina.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "031",
+		"name": "Nidoqueen",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": "Ground",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoqueen.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/nidoqueen.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "032",
+		"name": "Nidoran",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoran-m.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/nidoran-m.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "033",
+		"name": "Nidorino",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidorino.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/nidorino.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "034",
+		"name": "Nidoking",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": "Ground",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nidoking.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/nidoking.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "035",
+		"name": "Clefairy",
+		"species": "",
+		"description": "",
+		"type1": "Fairy",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/clefairy.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/clefairy.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "036",
+		"name": "Clefable",
+		"species": "",
+		"description": "",
+		"type1": "Fairy",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/clefable.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/clefable.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "037",
+		"name": "Vulpix",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/vulpix.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/vulpix.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "038",
+		"name": "Ninetales",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ninetales.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/ninetales.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "039",
+		"name": "Jigglypuff",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": "Fairy",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/jigglypuff.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/jigglypuff.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "040",
+		"name": "Wigglytuff",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": "Fairy",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/wigglytuff.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/wigglytuff.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "041",
+		"name": "Zubat",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/zubat.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/zubat.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "042",
+		"name": "Golbat",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/golbat.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/golbat.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "043",
+		"name": "Oddish",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/oddish.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/oddish.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "044",
+		"name": "Gloom",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gloom.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/gloom.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "045",
+		"name": "Vileplume",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/vileplume.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/vileplume.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "046",
+		"name": "Paras",
+		"species": "",
+		"description": "",
+		"type1": "Bug",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/paras.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/paras.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "047",
+		"name": "Parasect",
+		"species": "",
+		"description": "",
+		"type1": "Bug",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/parasect.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/parasect.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "048",
+		"name": "Venonat",
+		"species": "",
+		"description": "",
+		"type1": "Bug",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/venonat.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/venonat.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "049",
+		"name": "Venomoth",
+		"species": "",
+		"description": "",
+		"type1": "Bug",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/venomoth.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/venomoth.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "050",
+		"name": "Diglett",
+		"species": "",
+		"description": "",
+		"type1": "Ground",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/diglett.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/diglett.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "051",
+		"name": "Dugtrio",
+		"species": "",
+		"description": "",
+		"type1": "Ground",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dugtrio.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/dugtrio.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "052",
+		"name": "Meowth",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/meowth.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/meowth.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "053",
+		"name": "Persian",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/persian.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/persian.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "054",
+		"name": "Psyduck",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/psyduck.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/psyduck.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "055",
+		"name": "Golduck",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/golduck.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/golduck.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "056",
+		"name": "Mankey",
+		"species": "",
+		"description": "",
+		"type1": "Fighting",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mankey.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/mankey.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "057",
+		"name": "Primeape",
+		"species": "",
+		"description": "",
+		"type1": "Fighting",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/primeape.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/primeape.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "058",
+		"name": "Growlithe",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/growlithe.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/growlithe.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "059",
+		"name": "Arcanine",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/arcanine.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/arcanine.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "060",
+		"name": "Poliwag",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/poliwag.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/poliwag.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "061",
+		"name": "Poliwhirl",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/poliwhirl.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/poliwhirl.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "062",
+		"name": "Poliwrath",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Fighting",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/poliwrath.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/poliwrath.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "063",
+		"name": "Abra",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/abra.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/abra.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "064",
+		"name": "Kadabra",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kadabra.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/kadabra.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "065",
+		"name": "Alakazam",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/alakazam.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/alakazam.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "066",
+		"name": "Machop",
+		"species": "",
+		"description": "",
+		"type1": "Fighting",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/machop.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/machop.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "067",
+		"name": "Machoke",
+		"species": "",
+		"description": "",
+		"type1": "Fighting",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/machoke.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/machoke.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "068",
+		"name": "Machamp",
+		"species": "",
+		"description": "",
+		"type1": "Fighting",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/machamp.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/machamp.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "069",
+		"name": "Bellsprout",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bellsprout.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/bellsprout.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "070",
+		"name": "Weepinbell",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/weepinbell.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/weepinbell.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "071",
+		"name": "Victreebel",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/victreebel.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/victreebel.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "072",
+		"name": "Tentacool",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tentacool.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/tentacool.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "073",
+		"name": "Tentacruel",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tentacruel.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/tentacruel.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "074",
+		"name": "Geodude",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": "Ground",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/geodude.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/geodude.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "075",
+		"name": "Graveler",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": "Ground",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/graveler.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/graveler.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "076",
+		"name": "Golem",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": "Ground",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/golem.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/golem.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "077",
+		"name": "Ponyta",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ponyta.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/ponyta.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "078",
+		"name": "Rapidash",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/rapidash.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/rapidash.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "079",
+		"name": "Slowpoke",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Psychic",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/slowpoke.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/slowpoke.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "080",
+		"name": "Slowbro",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Psychic",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/slowbro.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/slowbro.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "081",
+		"name": "Magnemite",
+		"species": "",
+		"description": "",
+		"type1": "Electric",
+		"type2": "Steel",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/magnemite.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/magnemite.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "082",
+		"name": "Magneton",
+		"species": "",
+		"description": "",
+		"type1": "Electric",
+		"type2": "Steel",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/magneton.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/magneton.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "083",
+		"name": "Farfetch'd",
+		"species": "",
+		"description": "",
+		"type1": "Flying",
+		"type2": "Normal",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/farfetchd.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/farfetchd.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "084",
+		"name": "Doduo",
+		"species": "",
+		"description": "",
+		"type1": "Flying",
+		"type2": "Normal",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/doduo.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/doduo.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "085",
+		"name": "Dodrio",
+		"species": "",
+		"description": "",
+		"type1": "Flying",
+		"type2": "Normal",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dodrio.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/dodrio.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "086",
+		"name": "Seel",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/seel.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/seel.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "087",
+		"name": "Dewgong",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Ice",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dewgong.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/dewgong.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "088",
+		"name": "Grimer",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/grimer.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/grimer.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "089",
+		"name": "Muk",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/muk.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/muk.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "090",
+		"name": "Shellder",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shellder.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/shellder.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "091",
+		"name": "Cloyster",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Ice",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cloyster.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/cloyster.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "092",
+		"name": "Gastly",
+		"species": "",
+		"description": "",
+		"type1": "Ghost",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gastly.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/gastly.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "093",
+		"name": "Haunter",
+		"species": "",
+		"description": "",
+		"type1": "Ghost",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/haunter.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/haunter.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "094",
+		"name": "Gengar",
+		"species": "",
+		"description": "",
+		"type1": "Ghost",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gengar.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/gengar.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "095",
+		"name": "Onix",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": "Ground",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/onix.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/onix.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "096",
+		"name": "Drowzee",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/drowzee.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/drowzee.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "097",
+		"name": "Hypno",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/hypno.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/hypno.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "098",
+		"name": "Krabby",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/krabby.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/krabby.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "099",
+		"name": "Kingler",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kingler.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/kingler.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "100",
+		"name": "Voltorb",
+		"species": "",
+		"description": "",
+		"type1": "Electric",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/voltorb.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/voltorb.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "101",
+		"name": "Electrode",
+		"species": "",
+		"description": "",
+		"type1": "Electric",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/electrode.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/electrode.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "102",
+		"name": "Exeggcute",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Psychic",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/exeggcute.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/exeggcute.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "103",
+		"name": "Exeggutor",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Psychic",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/exeggutor.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/exeggutor.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "104",
+		"name": "Cubone",
+		"species": "",
+		"description": "",
+		"type1": "Ground",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cubone.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/cubone.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "105",
+		"name": "Marowak",
+		"species": "",
+		"description": "",
+		"type1": "Ground",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/marowak.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/marowak.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "106",
+		"name": "Hitmonlee",
+		"species": "",
+		"description": "",
+		"type1": "Fighting",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/hitmonlee.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/hitmonlee.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "107",
+		"name": "Hitmonchan",
+		"species": "",
+		"description": "",
+		"type1": "Fighting",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/hitmonchan.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/hitmonchan.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "108",
+		"name": "Lickitung",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lickitung.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/lickitung.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "109",
+		"name": "Koffing",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/koffing.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/koffing.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "110",
+		"name": "Weezing",
+		"species": "",
+		"description": "",
+		"type1": "Poison",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/weezing.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/weezing.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "111",
+		"name": "Rhyhorn",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": "Ground",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/rhyhorn.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/rhyhorn.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "112",
+		"name": "Rhydon",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": "Ground",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/rhydon.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/rhydon.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "113",
+		"name": "Chansey",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/chansey.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/chansey.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "114",
+		"name": "Tangela",
+		"species": "",
+		"description": "",
+		"type1": "Grass",
+		"type2": "Poison",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tangela.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/tangela.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "115",
+		"name": "Kangaskhan",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kangaskhan.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/kangaskhan.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "116",
+		"name": "Horsea",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/horsea.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/horsea.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "117",
+		"name": "Seadra",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/seadra.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/seadra.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "118",
+		"name": "Goldeen",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/goldeen.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/goldeen.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "119",
+		"name": "Seaking",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/seaking.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/seaking.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "120",
+		"name": "Staryu",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/staryu.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/staryu.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "121",
+		"name": "Starmie",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Psychic",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/starmie.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/starmie.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "122",
+		"name": "Mr. Mime",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": "Fairy",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mr-mime.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/mr-mime.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "123",
+		"name": "Scyther",
+		"species": "",
+		"description": "",
+		"type1": "Bug",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/scyther.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/scyther.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "124",
+		"name": "Jynx",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": "Ice",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/jynx.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/jynx.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "125",
+		"name": "Electabuzz",
+		"species": "",
+		"description": "",
+		"type1": "Electric",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/electabuzz.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/electabuzz.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "126",
+		"name": "Magmar",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/magmar.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/magmar.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "127",
+		"name": "Pinsir",
+		"species": "",
+		"description": "",
+		"type1": "Bug",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pinsir.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/pinsir.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "128",
+		"name": "Tauros",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tauros.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/tauros.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "129",
+		"name": "Magikarp",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/magikarp.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/magikarp.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "130",
+		"name": "Gyarados",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gyarados.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/gyarados.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "131",
+		"name": "Lapras",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Ice",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lapras.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/lapras.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "132",
+		"name": "Ditto",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ditto.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/ditto.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "133",
+		"name": "Eevee",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/eevee.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/eevee.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "134",
+		"name": "Vaporeon",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/vaporeon.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/vaporeon.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "135",
+		"name": "Jolteon",
+		"species": "",
+		"description": "",
+		"type1": "Electric",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/jolteon.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/jolteon.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "136",
+		"name": "Flareon",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/flareon.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/flareon.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "137",
+		"name": "Porygon",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/porygon.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/porygon.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "138",
+		"name": "Omanyte",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Rock",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/omanyte.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/omanyte.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "139",
+		"name": "Omastar",
+		"species": "",
+		"description": "",
+		"type1": "Water",
+		"type2": "Rock",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/omastar.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/omastar.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "140",
+		"name": "Kabuto",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kabuto.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/kabuto.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "141",
+		"name": "Kabutops",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kabutops.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/kabutops.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "142",
+		"name": "Aerodactyl",
+		"species": "",
+		"description": "",
+		"type1": "Rock",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/aerodactyl.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/aerodactyl.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "143",
+		"name": "Snorlax",
+		"species": "",
+		"description": "",
+		"type1": "Normal",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/snorlax.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/snorlax.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "144",
+		"name": "Articuno",
+		"species": "",
+		"description": "",
+		"type1": "Ice",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/articuno.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/articuno.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "145",
+		"name": "Zapdos",
+		"species": "",
+		"description": "",
+		"type1": "Electric",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/zapdos.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/zapdos.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "146",
+		"name": "Moltres",
+		"species": "",
+		"description": "",
+		"type1": "Fire",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/moltres.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/moltres.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "147",
+		"name": "Dratini",
+		"species": "",
+		"description": "",
+		"type1": "Dragon",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dratini.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/dratini.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "148",
+		"name": "Dragonair",
+		"species": "",
+		"description": "",
+		"type1": "Dragon",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dragonair.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/dragonair.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "149",
+		"name": "Dragonite",
+		"species": "",
+		"description": "",
+		"type1": "Dragon",
+		"type2": "Flying",
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dragonite.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/dragonite.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "150",
+		"name": "Mewtwo",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mewtwo.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/mewtwo.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	},
+	{
+		"id": "151",
+		"name": "Mew",
+		"species": "",
+		"description": "",
+		"type1": "Psychic",
+		"type2": null,
+		"locations": [
+		
+		],
+		"sprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mew.png",
+		"shinySprite": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/shiny/mew.png",
+		"captured": false,
+		"shinyCaptured": false,
+		"count": 0
+	}
+]
+
+	
+	

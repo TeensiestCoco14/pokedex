@@ -1,9 +1,10 @@
 import * as actionTypes from "./actionTypes";
 
-export const recordCapture = (id, name) => {
+export const recordCapture = (id, shiny) => {
 	return {
 		type: actionTypes.RECORD_CAPTURE,
 		id: id,
+		shiny: shiny
 	}
 }
 
