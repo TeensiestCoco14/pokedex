@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import {connect} from "react-redux";
 import * as actions from "../../store/actions/index";
 
+import "./Pokedex.css";
+
 import Display from "../../components/Dex/Display/Display";
 import Selector from "../../components/Dex/Selector/Selector";
 
@@ -59,18 +61,8 @@ class Pokedex extends Component {
 
 
 	render() {
-		const style = {
-			width: "500px",
-			height: "675px",
-			backgroundColor: "red",
-			borderRadius: "5%",
-			margin: "auto",
-			marginTop: "25px",
-			paddingTop: "50px",
-			zIndex: 0,
-		}
 		return(
-			<div style = {style}>
+			<div className = "Pokedex">
 				<Display 
 					showPageOptions = {this.state.showPageOptions}
 					showPage = {this.state.displayPage} 

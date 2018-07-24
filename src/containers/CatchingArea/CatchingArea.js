@@ -49,6 +49,30 @@ class CatchingArea extends Component {
 		this.props.onChangeToCave();
 	}
 
+	onSnowHandler = () => {
+		this.props.onChangeToSnow();
+	}
+
+	onCityHandler = () => {
+		this.props.onChangeToCity();
+	}
+
+	onForestHandler = () => {
+		this.props.onChangeToForest();
+	}
+
+	onRiverHandler = () => {
+		this.props.onChangeToRiver();
+	}
+
+	onDesertHandler = () => {
+		this.props.onChangeToDesert();
+	}
+
+	onMountainHandler = () => {
+		this.props.onChangeToMountain();
+	}
+
 				
 	render() {
 		let field = null;
@@ -59,6 +83,12 @@ class CatchingArea extends Component {
 					<FieldSelector field = "Grassy Field" description = "..." clicked = {this.onGrassyHandler}/>
 					<FieldSelector field = "Ocean" description = "..." clicked = {this.onOceanHandler}/>
 					<FieldSelector field = "Cave" description = "..." clicked = {this.onCaveHandler}/>
+					<FieldSelector field = "Snowy Field" description = "..." clicked = {this.onSnowHandler}/>
+					<FieldSelector field = "River" description = "..." clicked = {this.onRiverHandler}/>
+					<FieldSelector field = "Mountain" description = "..." clicked = {this.onMountainHandler}/>
+					<FieldSelector field = "City" description = "..." clicked = {this.onCityHandler}/>
+					<FieldSelector field = "Desert" description = "..." clicked = {this.onDesertHandler}/>
+					<FieldSelector field = "Forest" description = "..." clicked = {this.onForestHandler}/>
 				</div>
 			);
 		} else if (this.props.fieldType === "grassy") {
@@ -100,6 +130,84 @@ class CatchingArea extends Component {
 					sprite = {this.props.pokedex[this.props.id].sprite}
 					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
 			);
+		} else if (this.props.fieldType === "forest") {
+			field = (
+				<FieldType 
+					clicked = {this.onClickHandler} 
+					background = {forest} 
+					captured = {this.props.captured} 
+					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
+					confirm = {this.onConfirmHandler}
+					pokemon = {this.props.pokedex[this.props.id].name}
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
+		} else if (this.props.fieldType === "desert") {
+			field = (
+				<FieldType 
+					clicked = {this.onClickHandler} 
+					background = {desert} 
+					captured = {this.props.captured} 
+					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
+					confirm = {this.onConfirmHandler}
+					pokemon = {this.props.pokedex[this.props.id].name}
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
+		} else if (this.props.fieldType === "mountain") {
+			field = (
+				<FieldType 
+					clicked = {this.onClickHandler} 
+					background = {mountain} 
+					captured = {this.props.captured} 
+					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
+					confirm = {this.onConfirmHandler}
+					pokemon = {this.props.pokedex[this.props.id].name}
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
+		} else if (this.props.fieldType === "snow") {
+			field = (
+				<FieldType 
+					clicked = {this.onClickHandler} 
+					background = {snow} 
+					captured = {this.props.captured} 
+					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
+					confirm = {this.onConfirmHandler}
+					pokemon = {this.props.pokedex[this.props.id].name}
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
+		} else if (this.props.fieldType === "city") {
+			field = (
+				<FieldType 
+					clicked = {this.onClickHandler} 
+					background = {city} 
+					captured = {this.props.captured} 
+					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
+					confirm = {this.onConfirmHandler}
+					pokemon = {this.props.pokedex[this.props.id].name}
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
+		} else if (this.props.fieldType === "river") {
+			field = (
+				<FieldType 
+					clicked = {this.onClickHandler} 
+					background = {river} 
+					captured = {this.props.captured} 
+					spawned = {this.props.spawned}
+					shiny = {this.props.shiny}
+					confirm = {this.onConfirmHandler}
+					pokemon = {this.props.pokedex[this.props.id].name}
+					sprite = {this.props.pokedex[this.props.id].sprite}
+					shinySprite = {this.props.pokedex[this.props.id].shinySprite}/>
+			);
 		}
 
 		return(
@@ -131,6 +239,12 @@ const mapDispatchToProps = dispatch => {
 		onChangeToGrassyField: () => dispatch(actions.changeToGrassyField()),
 		onChangeToCave: () => dispatch(actions.changeToCave()),
 		onChangeToOcean: () => dispatch(actions.changeToOcean()),
+		onChangeToForest: () => dispatch(actions.changeToForest()),
+		onChangeToRiver: () => dispatch(actions.changeToRiver()),
+		onChangeToSnow: () => dispatch(actions.changeToSnow()),
+		onChangeToDesert: () => dispatch(actions.changeToDesert()),
+		onChangeToMountain: () => dispatch(actions.changeToMountain()),
+		onChangeToCity: () => dispatch(actions.changeToCity()),
 		onClearField: () => dispatch(actions.clearField())
 	};
 }

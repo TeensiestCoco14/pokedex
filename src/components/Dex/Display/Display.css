@@ -1,0 +1,8 @@
+.Display {
+	width: 350px;
+	height: 200px;
+	background-color: rgb(104, 161, 249);
+	border-radius: 3%;
+	margin: auto;
+	z-index: 100;
+}

@@ -1,20 +1,26 @@
 import React from "react";
+import Button from "../../../UI/Button/Button";
+
+import "./Description.css";
 
 const description = (props) => {
+
 	return(
 		<div>
 			<div>
-				{props.sprite ? <img src = {props.sprite} alt = "" style = {{width: "40px", height: "auto", display: "inline-block"}}/> : null}
-				{props.name ? <h2 style = {{display: "inline"}}>#{props.id}, {props.name}</h2> : null}
-				{props.species ? <h3 style = {{display: "inline"}}>{props.species}</h3> : null}
+				<h2 style = {{display: "inline"}}>#{props.id}, {props.name}: </h2>
+				<h4 style = {{display: "inline"}}>{props.species}</h4>
+			</div>
+			<div style = {{margin: "3px"}}>
+				<h3 style = {{display: "inline"}}>Types: </h3>
+				<h4 className = {props.type1} style = {{display: "inline", margin: "2px"}}>{props.type1} </h4>
+				<h4 className = {props.type2} style = {{display: "inline", margin: "2px"}}> {props.type2}</h4>
 			</div>
 			<div>
-				{props.type1 ? <h4 style = {{display: "inline"}}>{props.type1}</h4> : null}
-				{props.type2 ? <h4 style = {{display: "inline"}}> {props.type2}</h4> : null}
+				<p style = {{textAlign: "left", padding: "5px"}}>{props.description}</p>
+				<Button clicked = {props.clicked} text = "Back" />
 			</div>
-			<div>
-				{props.description ? <p style = {{textAlign: "left", padding: "5px"}}>{props.description}</p> : null}
-			</div>
+			
 		</div>
 	);
 }

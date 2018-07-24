@@ -5,6 +5,12 @@ export {
 	changeToGrassyField,
 	changeToCave,
 	changeToOcean,
+	changeToCity,
+	changeToMountain,
+	changeToRiver,
+	changeToSnow,
+	changeToDesert,
+	changeToForest,
 	clearField
 } from "./catching";
 

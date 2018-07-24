@@ -1,12 +1,12 @@
 .FieldSelector {
-	height: 150px;
+	height: 80px;
 	width: 200px;
-	line-height: 150px;
+	line-height: 120px;
 	text-align: center;
 	border: 2px dashed #f69c55;
 	margin: auto;
-	margin-left: 10px;
-	padding: 10px;
+	margin: 10px 70px;
+	padding-bottom: 70px;
 	display: inline-block;
 }
 

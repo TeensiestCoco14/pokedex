@@ -8,7 +8,7 @@ const fieldType = (props) => {
 		backgroundSize: "cover",
 		backgroundRepeat: "no-repeat",
 		width: "675px",
-		height: "634px",
+		height: "550px",
 		margin: "auto",
 		border: "1px solid black",
 		zIndex: "0"

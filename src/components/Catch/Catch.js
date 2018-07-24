@@ -9,7 +9,7 @@ const Catch = (props) => {
 		border: "2px solid rgba(169, 178, 188, 0.75)",
 		borderRadius: "5%",
 		width: "50%",
-		height: "auto",
+		height: "200px",
 		padding: "25px",
 		margin: "auto",
 		marginTop: "25%",

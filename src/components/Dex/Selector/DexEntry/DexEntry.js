@@ -13,7 +13,7 @@ const dexEntry = (props) => {
 	pokedex = props.pokedex.map(entry => {
 		if (entry.captured === false) {
 			return(
-				<tr key = {entry.name}>
+				<tr key = {entry.id}>
 					<td>???</td>
 					<td>?????????</td>
 					<td>0</td>
@@ -21,7 +21,7 @@ const dexEntry = (props) => {
 			);
 		} else {
 			return(
-				<tr key = {entry.name} onClick = {() => props.clicked(entry)}>
+				<tr key = {entry.id} onClick = {() => props.clicked(entry)}>
 					<td>{entry.id}</td>
 					<td>{entry.name}</td>
 					<td>{entry.count}</td>

@@ -1,8 +1,10 @@
 import React from "react";
 
+import "./InfoCard.css";
+
 const infoCard = (props) => {
 	return (
-		<div onClick = {props.clicked} style = {{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)", transition: "0.3s", padding: "5px", margin: "2px", borderRadius: "3%"}}>
+		<div onClick = {props.clicked} className = "InfoCard">
 			<h3>{props.infoType}</h3>
 		</div>
 	);

@@ -5,6 +5,12 @@ export const CONFIRM_CAPTURE = "CONFIRM_CAPTURE";
 export const CHANGE_TO_GRASSY_FIELD = "CHANGE_TO_GRASSY_FIELD";
 export const CHANGE_TO_CAVE = "CHANGE_TO_CAVE";
 export const CHANGE_TO_OCEAN = "CHANGE_TO_OCEAN";
+export const CHANGE_TO_DESERT = "CHANGE_TO_DESERT";
+export const CHANGE_TO_CITY = "CHANGE_TO_CITY";
+export const CHANGE_TO_MOUNTAIN = "CHANGE_TO_MOUNTAIN";
+export const CHANGE_TO_FOREST = "CHANGE_TO_FOREST";
+export const CHANGE_TO_SNOW = "CHANGE_TO_SNOW";
+export const CHANGE_TO_RIVER = "CHANGE_TO_RIVER";
 export const CLEAR_FIELD = "CLEAR_FIELD";
 
 //Pokedex actions

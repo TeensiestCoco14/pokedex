@@ -53,6 +53,42 @@ const changeToOcean = (state, action) => {
 	})
 }
 
+const changeToForest = (state, action) => {
+	return updateObject(state, {
+		fieldType: "forest"
+	})
+}
+
+const changeToRiver = (state, action) => {
+	return updateObject(state, {
+		fieldType: "river"
+	})
+}
+
+const changeToDesert = (state, action) => {
+	return updateObject(state, {
+		fieldType: "desert"
+	})
+}
+
+const changeToCity = (state, action) => {
+	return updateObject(state, {
+		fieldType: "city"
+	})
+}
+
+const changeToMountain = (state, action) => {
+	return updateObject(state, {
+		fieldType: "mountain"
+	})
+}
+
+const changeToSnow = (state, action) => {
+	return updateObject(state, {
+		fieldType: "snow"
+	})
+}
+
 const clearField = (state, action) => {
 	return updateObject(state, {
 		spawned: false,
@@ -70,6 +106,12 @@ const reducer = (state = initialState, action) => {
 		case actionTypes.CHANGE_TO_GRASSY_FIELD: return changeToGrassyField(state, action);
 		case actionTypes.CHANGE_TO_CAVE: return changeToCave(state, action);
 		case actionTypes.CHANGE_TO_OCEAN: return changeToOcean(state, action);
+		case actionTypes.CHANGE_TO_DESERT: return changeToDesert(state, action);
+		case actionTypes.CHANGE_TO_MOUNTAIN: return changeToMountain(state, action);
+		case actionTypes.CHANGE_TO_CITY: return changeToCity(state, action);
+		case actionTypes.CHANGE_TO_FOREST: return changeToForest(state, action);
+		case actionTypes.CHANGE_TO_RIVER: return changeToRiver(state, action);
+		case actionTypes.CHANGE_TO_SNOW: return changeToSnow(state, action);
 		case actionTypes.CLEAR_FIELD: return clearField(state, action);
 		default: return state;
 	}
