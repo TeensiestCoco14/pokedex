@@ -18,10 +18,6 @@ import snow from "../../assets/images/backgrounds/snow.png";
 
 class CatchingArea extends Component {
 
-	componentDidMount() {
-		this.props.onSpawn(this.props.spawned, this.props.captured, this.props.fieldType);
-	}
-
 	componentDidUpdate() {
 		if (this.props.fieldType) {
 			this.props.onSpawn(this.props.spawned, this.props.captured, this.props.fieldType);
@@ -36,59 +32,22 @@ class CatchingArea extends Component {
 	onConfirmHandler = () => {
 		this.props.onConfirm();
 	}
-
-	onGrassyHandler = () => {
-		this.props.onChangeToGrassyField();
-	}
-
-	onOceanHandler = () => {
-		this.props.onChangeToOcean();
-	}
-
-	onCaveHandler = () => {
-		this.props.onChangeToCave();
-	}
-
-	onSnowHandler = () => {
-		this.props.onChangeToSnow();
-	}
-
-	onCityHandler = () => {
-		this.props.onChangeToCity();
-	}
-
-	onForestHandler = () => {
-		this.props.onChangeToForest();
-	}
-
-	onRiverHandler = () => {
-		this.props.onChangeToRiver();
-	}
-
-	onDesertHandler = () => {
-		this.props.onChangeToDesert();
-	}
-
-	onMountainHandler = () => {
-		this.props.onChangeToMountain();
-	}
-
-				
+			
 	render() {
 		let field = null;
 
 		if (!this.props.fieldType) {
 			field = (
 				<div>
-					<FieldSelector field = "Grassy Field" description = "..." clicked = {this.onGrassyHandler}/>
-					<FieldSelector field = "Ocean" description = "..." clicked = {this.onOceanHandler}/>
-					<FieldSelector field = "Cave" description = "..." clicked = {this.onCaveHandler}/>
-					<FieldSelector field = "Snowy Field" description = "..." clicked = {this.onSnowHandler}/>
-					<FieldSelector field = "River" description = "..." clicked = {this.onRiverHandler}/>
-					<FieldSelector field = "Mountain" description = "..." clicked = {this.onMountainHandler}/>
-					<FieldSelector field = "City" description = "..." clicked = {this.onCityHandler}/>
-					<FieldSelector field = "Desert" description = "..." clicked = {this.onDesertHandler}/>
-					<FieldSelector field = "Forest" description = "..." clicked = {this.onForestHandler}/>
+					<FieldSelector field = "Grassy Field" description = "..." clicked = {() => this.props.onChangeField("grassy")}/>
+					<FieldSelector field = "Ocean" description = "..." clicked = {() => this.props.onChangeField("ocean")}/>
+					<FieldSelector field = "Cave" description = "..." clicked = {() => this.props.onChangeField("cave")}/>
+					<FieldSelector field = "Snowy Field" description = "..." clicked = {() => this.props.onChangeField("snow")}/>
+					<FieldSelector field = "River" description = "..." clicked = {() => this.props.onChangeField("river")}/>
+					<FieldSelector field = "Mountain" description = "..." clicked = {() => this.props.onChangeField("mountain")}/>
+					<FieldSelector field = "City" description = "..." clicked = {() => this.props.onChangeField("city")}/>
+					<FieldSelector field = "Desert" description = "..." clicked = {() => this.props.onChangeField("desert")}/>
+					<FieldSelector field = "Forest" description = "..." clicked = {() => this.props.onChangeField("forest")}/>
 				</div>
 			);
 		} else if (this.props.fieldType === "grassy") {
@@ -236,15 +195,7 @@ const mapDispatchToProps = dispatch => {
 		onSpawn: (spawned, captured, fieldType) => dispatch(actions.checkSpawnPokemon(spawned, captured, fieldType)),
 		onConfirm: () => dispatch(actions.confirmCapture()),
 		onRecordCapture: (id, shiny) => dispatch(actions.recordCapture(id, shiny)),
-		onChangeToGrassyField: () => dispatch(actions.changeToGrassyField()),
-		onChangeToCave: () => dispatch(actions.changeToCave()),
-		onChangeToOcean: () => dispatch(actions.changeToOcean()),
-		onChangeToForest: () => dispatch(actions.changeToForest()),
-		onChangeToRiver: () => dispatch(actions.changeToRiver()),
-		onChangeToSnow: () => dispatch(actions.changeToSnow()),
-		onChangeToDesert: () => dispatch(actions.changeToDesert()),
-		onChangeToMountain: () => dispatch(actions.changeToMountain()),
-		onChangeToCity: () => dispatch(actions.changeToCity()),
+		onChangeField: (field) => dispatch(actions.changeField(field)),
 		onClearField: () => dispatch(actions.clearField())
 	};
 }

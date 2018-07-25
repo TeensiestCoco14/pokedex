@@ -2,15 +2,7 @@ export {
 	capturePokemon, 
 	checkSpawnPokemon, 
 	confirmCapture,
-	changeToGrassyField,
-	changeToCave,
-	changeToOcean,
-	changeToCity,
-	changeToMountain,
-	changeToRiver,
-	changeToSnow,
-	changeToDesert,
-	changeToForest,
+	changeField,
 	clearField
 } from "./catching";
 

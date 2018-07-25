@@ -24,59 +24,13 @@ export const spawnPokemon = (id, shiny) => {
 	};
 };
 
-export const changeToGrassyField = () => {
+export const changeField = (field) => {
 	return {
-		type: actionTypes.CHANGE_TO_GRASSY_FIELD
+		type: actionTypes.CHANGE_FIELD,
+		field: field
 	}
 }
 
-export const changeToCave = () => {
-	return {
-		type: actionTypes.CHANGE_TO_CAVE
-	}
-}
-
-export const changeToOcean = () => {
-	return {
-		type: actionTypes.CHANGE_TO_OCEAN
-	}
-}
-
-export const changeToForest = () => {
-	return{
-		type: actionTypes.CHANGE_TO_FOREST
-	}
-}
-
-export const changeToRiver = () => {
-	return{
-		type: actionTypes.CHANGE_TO_RIVER
-	}
-}
-
-export const changeToDesert = () => {
-	return{
-		type: actionTypes.CHANGE_TO_DESERT
-	}
-}
-
-export const changeToSnow = () => {
-	return{
-		type: actionTypes.CHANGE_TO_SNOW
-	}
-}
-
-export const changeToMountain = () => {
-	return{
-		type: actionTypes.CHANGE_TO_MOUNTAIN
-	}
-}
-
-export const changeToCity = () => {
-	return{
-		type: actionTypes.CHANGE_TO_CITY
-	}
-}
 export const clearField = () => {
 	clearInterval(interval);
 	return {
